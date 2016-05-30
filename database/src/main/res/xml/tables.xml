@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <Table tableName="People" generateAble="false">
+        <id autoIncrement = "true"/>
+        <coloumn type = "string" nullAble="true">name</coloumn>
+        <coloumn type = "int">age</coloumn>
+        <coloumn type = "long">age1</coloumn>
+        <coloumn type = "double">age2</coloumn>
+        <coloumn type = "date">birthday</coloumn>
+    </Table>
+    <Table tableName="Dog" generateAble="false">
+        <id/>
+        <coloumn type = "string" nullAble="true">name</coloumn>
+        <coloumn type = "int">age</coloumn>
+        <coloumn type = "date">birthday</coloumn>
+    </Table>
+</Database>
